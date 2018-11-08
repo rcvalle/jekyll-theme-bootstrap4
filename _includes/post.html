@@ -1,0 +1,8 @@
+<article itemscope itemtype="http://schema.org/BlogPosting">
+  <h1 itemprop="headline"><a href="{{ include.post.url | relative_url }}">{{ include.post.title }}</a></h1>
+  <p>{% if include.post.author %}By <span itemprop="author">{{ include.post.author }}</span> on {% endif %}<time itemprop="datePublished" datetime="{{ include.post.date | date_to_xmlschema }}">{{ include.post.date | date: "%B %-d, %Y" }}</time>{% if include.post.comments %}. <a href="{{ include.post.url | relative_url }}#disqus_thread" data-disqus-identifier="{{ include.post.url | relative_url }}"></a>{% endif %}</p>
+  <div itemprop="articleBody">
+    {{ include.post.content | markdownify }}
+  </div>
+  <p>{% include post_tags.html post=include.post %}</p>
+</article>

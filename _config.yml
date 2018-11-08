@@ -1,0 +1,14 @@
+baseurl: /jekyll-theme-bootstrap4
+exclude:
+  - "*.gemspec"
+  - "CONTRIBUTING*"
+  - "Gemfile*"
+  - "LICENSE*"
+  - "README*"
+paginate: 3
+paginate_path: /pages/:num/
+permalink: /:year/:month/:day/:title/
+plugins:
+  - jekyll-paginate
+title: Title
+url: https://rcvalle.github.io

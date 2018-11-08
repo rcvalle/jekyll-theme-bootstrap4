@@ -1,0 +1,17 @@
+language: ruby
+rvm:
+  - 2.4
+script:
+  - jekyll build --drafts
+deploy:
+  - provider: pages
+    skip-cleanup: true
+    github-token: $GITHUB_TOKEN
+    on:
+      branch: master
+    local-dir: _site
+  - provider: rubygems
+    api_key: $API_KEY
+    skip-cleanup: true
+    on:
+      tags: true

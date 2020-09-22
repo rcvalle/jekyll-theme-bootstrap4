@@ -10,12 +10,26 @@
     <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" crossorigin="anonymous" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@4/dist/css/bootstrap.min.css" crossorigin="anonymous" rel="stylesheet">
     <style>
+      :root {
+        --color-black: #000;
+        --color-gray-100: #f8f9fa;
+        --color-gray-200: #e9ecef;
+        --color-gray-300: #dee2e6;
+        --color-gray-400: #ced4da;
+        --color-gray-500: #adb5bd;
+        --color-gray-600: #6c757d;
+        --color-gray-700: #495057;
+        --color-gray-800: #343a40;
+        --color-gray-900: #212529;
+        --color-white: #fff;
+      }
+
       article > h1 a {
-        color: #212529;
+        color: var(--color-gray-900);
       }
 
       article > h1 a:hover {
-        color: #212529;
+        color: var(--color-gray-900);
         text-decoration: none;
       }
 
@@ -32,13 +46,13 @@
       }
 
       .pagination > .page-item > .page-link {
-        color: #212529;
+        color: var(--color-gray-900);
       }
 
       .pagination > .page-item.active > .page-link {
-        color: #212529;
-        background-color: #e9ecef;
-        border-color: #dee2e6;
+        color: var(--color-gray-900);
+        background-color: var(--color-gray-200);
+        border-color: var(--color-gray-300);
       }
     </style>
   </head>

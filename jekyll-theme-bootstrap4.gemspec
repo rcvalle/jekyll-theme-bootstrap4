@@ -2,7 +2,7 @@ Gem::Specification.new do |spec|
   spec.files       = Dir[*%w(_config.yml _includes/**/* _layouts/**/* _plugins/**/* *.html *.xml CONTRIBUTING* LICENSE* README*)]
   spec.name        = 'jekyll-theme-bootstrap4'
   spec.summary     = 'A Bootstrap-based Jekyll theme.'
-  spec.version     = '0.0.1'
+  spec.version     = '0.0.2'
 
   spec.author      = 'Ramon de C Valle'
   spec.description = ''

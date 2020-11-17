@@ -5,7 +5,7 @@ rvm:
 before_install:
   - gem install bundler
 script:
-  - jekyll build --drafts
+  - bundle exec jekyll build --drafts
 deploy:
   - provider: pages
     skip-cleanup: true

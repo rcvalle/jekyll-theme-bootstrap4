@@ -1,6 +1,8 @@
 Gem::Specification.new do |spec|
   spec.authors     = ['Ramon de C Valle']
-  spec.files       = Dir[*%w(_config.yml _includes/**/* _layouts/**/* _plugins/**/* *.html *.xml CONTRIBUTING* LICENSE* README*)]
+  spec.files       = Dir.chdir(File.expand_path('..', __FILE__)) do
+    `git ls-files -z`.split("\0").reject { |f| f.match(%r{(\A(?:\.|Gemfile|_drafts)|(?:\.gemspec)\Z)}) }
+  end
   spec.name        = 'jekyll-theme-bootstrap4'
   spec.summary     = 'A Bootstrap-based Jekyll theme.'
   spec.version     = '0.0.3'

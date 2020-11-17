@@ -73,5 +73,5 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 License
 -------
 
-Licensed under the MIT license. See [LICENSE](LICENSE) for license text and
+Licensed under the MIT License. See [LICENSE](LICENSE) for license text and
 copyright information.

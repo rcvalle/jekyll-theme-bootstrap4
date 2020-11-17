@@ -1,10 +1,10 @@
 Gem::Specification.new do |spec|
+  spec.authors     = ['Ramon de C Valle']
   spec.files       = Dir[*%w(_config.yml _includes/**/* _layouts/**/* _plugins/**/* *.html *.xml CONTRIBUTING* LICENSE* README*)]
   spec.name        = 'jekyll-theme-bootstrap4'
   spec.summary     = 'A Bootstrap-based Jekyll theme.'
   spec.version     = '0.0.3'
 
-  spec.author      = 'Ramon de C Valle'
   spec.description = ''
   spec.email       = 'rcvalle@users.noreply.github.com'
   spec.homepage    = 'https://github.com/rcvalle/jekyll-theme-bootstrap4'

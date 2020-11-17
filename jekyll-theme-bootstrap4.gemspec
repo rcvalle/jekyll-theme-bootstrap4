@@ -16,4 +16,5 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "jekyll", "~> 4.1"
   spec.add_runtime_dependency "jekyll-paginate", "~> 1.1"
   spec.add_runtime_dependency "kramdown-parser-gfm", "~> 1.1"
+  spec.required_ruby_version = '>= 2.3.0'
 end

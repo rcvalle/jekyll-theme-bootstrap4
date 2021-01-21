@@ -1,7 +1,7 @@
 jekyll-theme-bootstrap4
 =======================
 
-[![Build Status](https://travis-ci.com/rcvalle/jekyll-theme-bootstrap4.svg?branch=master)](https://travis-ci.com/rcvalle/jekyll-theme-bootstrap4)
+![Build Status](https://github.com/rcvalle/jekyll-theme-bootstrap4/workflows/build/badge.svg)
 
 A [Bootstrap-based](https://getbootstrap.com/) Jekyll theme.
 

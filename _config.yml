@@ -1,4 +1,6 @@
+author: Ramon de C Valle
 baseurl: /jekyll-theme-bootstrap4
+description: A Bootstrap-based Jekyll theme.
 excerpts: true
 exclude:
   - "*.gemspec"

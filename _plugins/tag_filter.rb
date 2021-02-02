@@ -2,7 +2,11 @@ module Jekyll
   module TagFilter
     def tag_url(tag)
       site = @context.registers[:site]
-      site.config['tags_dir'] ? "#{site.config['baseurl']}/#{site.config['tags_dir']}/#{tag.tr(' ', '-')}/" : "#{site.config['baseurl']}/tags/#{tag.tr(' ', '-')}/"
+      if site.config['tags_dir']
+        "#{site.config['url']}/#{site.config['baseurl']}/#{site.config['tags_dir']}/#{category.tr(' ', '-')}/"
+      else
+        "#{site.config['url']}/#{site.config['baseurl']}/tags/#{category.tr(' ', '-')}/"
+      end
     end
   end
 end

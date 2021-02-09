@@ -5,7 +5,7 @@ Gem::Specification.new do |spec|
   end
   spec.name        = 'jekyll-theme-bootstrap4'
   spec.summary     = 'A Bootstrap-based Jekyll theme.'
-  spec.version     = '0.0.6'
+  spec.version     = '0.0.7'
 
   spec.description = ''
   spec.email       = 'rcvalle@users.noreply.github.com'

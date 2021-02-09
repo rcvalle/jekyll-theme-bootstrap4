@@ -2,7 +2,7 @@
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>{{ site.url }}</id>
+  <id>{{ "/" | absolute_url }}</id>
   <link href="{{ site.url }}"/>
   <link href="{{ page.url | absolute_url }}" rel="self"/>
   {% if site.copyright %}

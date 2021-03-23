@@ -6,7 +6,7 @@ module Jekyll
         "#{site.config['url']}/#{site.config['baseurl']}/#{site.config['tags_dir']}/#{tag.tr(' ', '-')}/"
       else
         "#{site.config['url']}/#{site.config['baseurl']}/tags/#{tag.tr(' ', '-')}/"
-      end
+      end.gsub(/\/\/+/).with_index { |_, i| i.zero? ? '//' : '/' }
     end
   end
 end

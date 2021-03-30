@@ -3,11 +3,11 @@ layout: default
 type: blog
 ---
 
-<div class="row">
+<div class="row mb-3">
   <div class="col">
     <main>
       {% for post in paginator.posts %}
-        <div class="row">
+        <div class="row mb-3">
           <div class="col">
             {% include post.html post=post %}
           </div>

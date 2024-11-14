@@ -1,3 +1,5 @@
+Version = [0, 0, 11]
+
 Gem::Specification.new do |spec|
   spec.authors     = ['Ramon de C Valle']
   spec.files       = Dir.chdir(File.expand_path('..', __FILE__)) do
@@ -5,7 +7,7 @@ Gem::Specification.new do |spec|
   end
   spec.name        = 'jekyll-theme-bootstrap4'
   spec.summary     = 'A Bootstrap-based Jekyll theme.'
-  spec.version     = '0.0.11'
+  spec.version     = Version.join('.')
 
   spec.description = ''
   spec.email       = 'rcvalle@users.noreply.github.com'

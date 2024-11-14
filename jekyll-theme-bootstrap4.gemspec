@@ -1,4 +1,4 @@
-Version = [0, 0, 11]
+Version = [0, 0, 12]
 
 Gem::Specification.new do |spec|
   spec.authors     = ['Ramon de C Valle']
